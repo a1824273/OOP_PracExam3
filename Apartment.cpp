@@ -15,7 +15,7 @@ Apartment::Apartment(int capacity){
         max_capacity = capacity;
     }
     else{
-        max_capacity = 0;
+        max_capacity = 10;
     }
     current_population = 0;
     Apartment1 = new Unit[max_capacity];
