@@ -11,7 +11,7 @@ Apartment::Apartment(){
 
 Apartment::Apartment(int capacity){
     // constructor for Apartment with given num units
-    if (capacity > 2){
+    if (capacity > 0){
         max_capacity = capacity;
     }
     else{
