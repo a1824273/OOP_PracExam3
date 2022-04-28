@@ -23,7 +23,6 @@ Apartment::Apartment(int capacity){
 
 int Apartment::get_capacity(){
     // returns the  number of units allowed
-    std::cout << "the max_capacity is: " << max_capacity << std::endl;
     return max_capacity;
 }
 
