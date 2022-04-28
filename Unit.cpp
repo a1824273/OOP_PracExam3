@@ -11,19 +11,19 @@ Unit::Unit(){
 Unit::Unit(int bedroom_number, double square_metres, int dollar_values){
     // a constructor that takes: the number of bedrooms,
     //number of square meters, and value in dollars as parameters
-    if (bedroom_number >= 0){
+    if (bedroom_number > 0){
         bedrooms = bedroom_number;
     }
     else{
         bedrooms = 0;
     }
-    if (square_metres >= 0){
+    if (square_metres > 0){
         area = square_metres;
     }
     else{
         area = 0;
     }
-    if (dollar_values >= 0){
+    if (dollar_values > 0){
         price = dollar_values;
     }
     else{
