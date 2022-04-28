@@ -11,7 +11,12 @@ Apartment::Apartment(){
 
 Apartment::Apartment(int capacity){
     // constructor for Apartment with given num units
-    max_capacity = capacity;
+    if (capacity >= 0){
+        max_capacity = capacity;
+    }
+    else{
+        max_capacity = 0;
+    }
     current_population = 0;
     Apartment1 = new Unit[max_capacity];
 }
