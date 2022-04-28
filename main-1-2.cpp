@@ -10,7 +10,7 @@ int main(){
     Unit1 = new Unit(3, 12.4, 10000);
 
     Apartment *Apartment1;
-    Apartment1 = new Apartment(1);
+    Apartment1 = new Apartment(2);
     cout << "current capacity is: " << Apartment1->get_capacity() << endl;
     cout << "current number of units is: " << Apartment1->get_current_number_of_units() << endl;
     cout << "dynamic array of units in the apartment: " << Apartment1->get_contents() << endl;
