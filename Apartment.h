@@ -10,9 +10,9 @@ class Apartment:Unit{
 public:
     Apartment();  // default constructor allocates capacity for 10 units
     Unit *Apartment1;
-    Apartment(int capacity);  // constructor for Apartment with given num units
     int max_capacity;
     int current_population;
+    Apartment(int capacity);  // constructor for Apartment with given num units
     int get_capacity();  // returns the  number of units allowed
 
     // returns the current number of units in the apartment

@@ -7,6 +7,8 @@
 Apartment::Apartment(){
     // default constructor allocates capacity for 10 units
     Apartment1 = new Unit[10];
+    max_capacity = 10;
+    current_population = 0;
 }
 
 Apartment::Apartment(int capacity){
